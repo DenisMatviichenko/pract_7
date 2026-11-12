@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Калькулятори</h1>
+  <section>
+    <h2>Завдання 1. Площа трикутника за трьома сторонами</h2>
+    <form data-task="1">
+      <label>Сторона a <input type="text" name="a"></label>
+      <label>Сторона b <input type="text" name="b"></label>
+      <label>Сторона c <input type="text" name="c"></label>
+      <button type="submit">Обчислити</button>
+    </form>
+    <div class="result"></div>
+  </section>
+  <section>
+    <h2>Завдання 2. Площа трикутника за двома сторонами і кутом</h2>
+    <form data-task="2">
+      <label>Сторона a <input type="text" name="a"></label>
+      <label>Сторона b <input type="text" name="b"></label>
+      <label>Кут (градуси) <input type="text" name="g"></label>
+      <button type="submit">Обчислити</button>
+    </form>
+    <div class="result"></div>
+  </section>
+  <section>
+    <h2>Завдання 4. Площа трикутника за стороною і висотою</h2>
+    <form data-task="4">
+      <label>Сторона a <input type="text" name="a"></label>
+      <label>Висота h <input type="text" name="h"></label>
+      <button type="submit">Обчислити</button>
+    </form>
+    <div class="result"></div>
+  </section>
+  <section>
+    <h2>Завдання 5. Площа трикутника за трьома сторонами і радіусом описаного кола</h2>
+    <form data-task="5">
+      <label>Сторона a <input type="text" name="a"></label>
+      <label>Сторона b <input type="text" name="b"></label>
+      <label>Сторона c <input type="text" name="c"></label>
+      <label>Радіус R <input type="text" name="r"></label>
+      <button type="submit">Обчислити</button>
+    </form>
+    <div class="result"></div>
+  </section>
+  <section>
+    <h2>Завдання 6. Паліндром</h2>
+    <form data-task="6">
+      <label>Число <input type="text" name="n"></label>
+      <button type="submit">Перевірити</button>
+    </form>
+    <div class="result"></div>
+  </section>
+  <section>
+    <h2>Завдання 7. Анаграма</h2>
+    <form data-task="7">
+      <label>Перше слово <input type="text" name="w1"></label>
+      <label>Друге слово <input type="text" name="w2"></label>
+      <button type="submit">Перевірити</button>
+    </form>
+    <div class="result"></div>
+  </section>
+  <section>
+    <h2>Завдання 8. Число Фібоначчі за номером</h2>
+    <form data-task="8">
+      <label>Номер n <input type="text" name="n"></label>
+      <button type="submit">Знайти</button>
+    </form>
+    <div class="result"></div>
+  </section>
+  <section>
+    <h2>Завдання 9. Чи належить число послідовності Фібоначчі</h2>
+    <form data-task="9">
+      <label>Число <input type="text" name="n"></label>
+      <button type="submit">Перевірити</button>
+    </form>
+    <div class="result"></div>
+  </section>
+
+  <script src="js/common.js"></script>
+  <script src="js/task1.js"></script>
+  <script src="js/task2.js"></script>
+  <script src="js/task4.js"></script>
+  <script src="js/task5.js"></script>
+  <script src="js/task6.js"></script>
+  <script src="js/task7.js"></script>
+  <script src="js/task8.js"></script>
+  <script src="js/task9.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
